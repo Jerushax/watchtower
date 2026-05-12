@@ -1,0 +1,16 @@
+name: Encoded PowerShell
+
+description: Detect suspicious PowerShell execution
+
+severity: high
+
+score: 40
+
+matches:
+  - "-enc"
+  - "encodedcommand"
+  - "FromBase64String"
+  - "IEX"
+  - "DownloadString"
+  - "Invoke-WebRequest"
+  - "Net.WebClient"

@@ -1,0 +1,4 @@
+poll_interval: 2
+
+logging:
+  path: logs/watchtower.jsonl
